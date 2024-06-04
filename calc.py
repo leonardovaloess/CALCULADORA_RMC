@@ -1,6 +1,8 @@
 import conjuntos
 import f2grau
 import exponencial
+import matriz
+
 
 def menu():
     opcao = input('\nMENU:\n\n1 - Conjunto numéricos\n2 - Funções do segundo grau\n3 - Funções exponenciais\n4 - Matrizes\n5 - Sair\n\n')
@@ -22,7 +24,7 @@ def init():
             exponencial.init_exponencial()
             print(30*'-')
         elif opcao == '4':
-            print('\nFunções')
+            matriz.init_matrizes()
         elif opcao == '5':
             print('\nSaindo...')
             break

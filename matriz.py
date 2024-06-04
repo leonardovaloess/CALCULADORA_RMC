@@ -104,4 +104,3 @@ def init_matrizes():
         else:
             print('\nInválido')
 
-init_matrizes()
